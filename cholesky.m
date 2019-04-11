@@ -14,7 +14,7 @@ end
 t = sqrt(A(1, 1));
 
 if N == 1
-    L = t;    % base case    
+    L = t;    % base case
 else
     left_column = A(2:N, 1) / t;
     A_prime = A(2:N, 2:N) - left_column * left_column';
