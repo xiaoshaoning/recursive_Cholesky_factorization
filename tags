@@ -4,5 +4,10 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+backward_substitute	backward_substitute.m	/^function x = backward_substitute(R, y)$/;"	f
 cholesky	cholesky.m	/^function L = cholesky(A)$/;"	f
+forward_substitute	forward_substitute.m	/^function x = forward_substitute(L, y)$/;"	f
+test_backward_substitute	test_backward_substitute.m	/^function test_backward_substitute(varargin)$/;"	f
 test_cholesky	test_cholesky.m	/^function test_cholesky(varargin)$/;"	f
+test_forward_substitute	test_forward_substitute.m	/^function test_forward_substitute(varargin)$/;"	f
+test_hermitian_positive_definite_system	test_hermitian_positive_definite_system.m	/^function test_hermitian_positive_definite_system(varargin)$/;"	f
