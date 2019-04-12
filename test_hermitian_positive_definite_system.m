@@ -21,7 +21,7 @@ z = forward_substitute(L, y);
 x_prime = backward_substitute(L', z);
 
 if norm(x - x_prime) < 0.000001
-    disp('test passed.');    
+    disp('test passed.');
 else
     disp('test failed.');
 end
