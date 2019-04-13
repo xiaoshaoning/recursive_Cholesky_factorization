@@ -11,11 +11,11 @@ lp = 1; % diagnal position
 
 for k = 1:N
     l_memory(lp) = sqrt(a_memory(lp));
-    
+
     l_memory(lp+1:lp+N-k) = a_memory(lp+1:lp+N-k) / l_memory(lp);
-    
+
     a_memory(lp+N-k+1:N*(N+1)/2) = a_memory(lp+N-k+1:N*(N+1)/2) - l_times_l_prime( l_memory(lp+1:lp+N-k), N-k);
-    
+
     lp = lp + N - k + 1;
 end
 
